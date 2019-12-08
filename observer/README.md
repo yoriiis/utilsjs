@@ -1,5 +1,7 @@
 ## `observer`
 
+### Usage
+
 ```javascript
 const observer = new Observer({
     element: document.querySelector('.video'),
@@ -9,3 +11,17 @@ const observer = new Observer({
 });
 observer.observe();
 ```
+
+### Parameters
+
+#### `element`
+
+`HTMLElement`
+
+Tells to the function the target element.
+
+#### `element`
+
+`function`
+
+Specifies the function to execute once when the element is intersecting.
