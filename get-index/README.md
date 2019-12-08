@@ -20,9 +20,7 @@ Will return `2`.
 </ul>
 ```
 
-### Parameters
-
-#### `first parameter`
+### Parameter
 
 `HTMLElement`
 
