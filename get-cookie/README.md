@@ -8,9 +8,7 @@ getCookie('cookie-name')
 
 Will return the name of the cookie `cookie-name`.
 
-### Parameters
-
-#### `first parameter`
+### Parameter
 
 `string`
 
