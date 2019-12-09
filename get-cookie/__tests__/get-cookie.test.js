@@ -6,12 +6,12 @@ describe('getCookie function', () => {
 	beforeEach(() => {
 		Object.defineProperty(window.document, 'cookie', {
 			writable: true,
-			value: 'cookie-name=hello'
+			value: 'myCookie=hello'
 		});
 	});
 
 	it('should init the getCookie function', () => {
-		let result = getCookie('cookie-name');
+		let result = getCookie('myCookie');
 		expect(result).toBe('hello');
 	});
 });

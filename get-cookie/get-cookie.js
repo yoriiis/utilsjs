@@ -2,6 +2,8 @@
  * Get cookie utils function
  *
  * @param {String} name Cookie name
+ *
+ * @return {String} Cookie value
  */
 export default function getCookie (name) {
 	let getCookieValues = function (cookie) {
