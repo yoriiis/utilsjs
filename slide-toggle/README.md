@@ -4,7 +4,7 @@
 
 ```javascript
 slideToggle({
-    target: document.querySelector('.element')
+    target: document.querySelector('.element'),
     action: 'open',
     callback: () => {
         console.log('Element is now open.');
