@@ -1,3 +1,10 @@
+<p>
+	<img alt="TravisCI" src="https://img.shields.io/badge/utilsjs-v3.3.0-edde3f.svg?style=for-the-badge">
+	<a href="https://travis-ci.com/yoriiis/utilsjs">
+		<img alt="TravisCI" src="https://img.shields.io/travis/com/yoriiis/utilsjs/master?style=for-the-badge">
+	</a>
+</p>
+
 # 🛠️ utilsjs
 
 List of standalone Javascript utils functions available in each directory.
