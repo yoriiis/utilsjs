@@ -2,7 +2,7 @@
 
 import closest from '../closest';
 
-describe('closest funtion', () => {
+describe('closest function', () => {
 	beforeEach(() => {
 		document.body.innerHTML = `
 			<nav class="nav">
