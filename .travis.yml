@@ -19,3 +19,4 @@ jobs:
         - npm i
       script:
         - npm run test:eslint
+        - npm run test
