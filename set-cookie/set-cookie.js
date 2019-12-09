@@ -6,7 +6,7 @@
  * @param {Boolean} days Expiration in days
  * @param {String} path Cookie path
  */
-export default function setCookie({
+export default function setCookie ({
 	name,
 	value,
 	days = false,

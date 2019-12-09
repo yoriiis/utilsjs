@@ -5,7 +5,7 @@
  * @param {String} action Slide action (open, close)
  * @param {Boolean|Function} callback Callback function
  */
-export default function slideToggle({
+export default function slideToggle ({
 	target,
 	action = false,
 	callback = false
@@ -29,7 +29,7 @@ export default function slideToggle({
 		close();
 	}
 
-	function open() {
+	function open () {
 		target.style.height = 'auto';
 		target.style.display = 'block';
 		heightTarget = target.offsetHeight;
@@ -38,17 +38,17 @@ export default function slideToggle({
 		// Trigger CSS animation
 		setTimeout(() => {
 			target.style.height = `${heightTarget}px`;
-		}, delay)
+		}, delay);
 
 		// Callback CSS animation
 		setTimeout(() => {
-			if(callback && typeof callback === 'function'){
+			if (callback && typeof callback === 'function') {
 				callback();
 			}
 		}, transitionDurationMs + delay);
 	}
 
-	function close() {
+	function close () {
 		target.style.height = `${target.offsetHeight}px`;
 
 		// Trigger CSS animation
@@ -61,7 +61,7 @@ export default function slideToggle({
 			target.style.height = 'auto';
 			target.style.display = 'none';
 
-			if(callback && typeof callback === 'function'){
+			if (callback && typeof callback === 'function') {
 				callback();
 			}
 		}, transitionDurationMs + delay);

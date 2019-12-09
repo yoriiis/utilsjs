@@ -21,7 +21,7 @@ export default class Observer {
 		this.parsed = false;
 
 		// Instanciate the Interection Observer
-		this.observer = new IntersectionObserver(this.callbackIntersection.bind(this), {
+		this.observer = new window.IntersectionObserver(this.callbackIntersection.bind(this), {
 			rootMargin: this.options.rootMargin,
 			threshold: 0.0
 		});
@@ -53,6 +53,6 @@ export default class Observer {
 					this.options.onIntersection();
 				}
 			}
-		})
+		});
 	}
 }
