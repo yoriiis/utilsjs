@@ -7,7 +7,7 @@
  *
  * @return {Object} Objects merged into one
  */
-export default function extend(deep = false, ...objects) {
+export default function extend (deep = false, ...objects) {
 	let extended = {};
 
 	// Merge the object into the extended object
@@ -22,12 +22,12 @@ export default function extend(deep = false, ...objects) {
 				}
 			}
 		}
-	}
+	};
 
 	// Loop through each object and conduct a merge
 	objects.forEach(object => {
 		merge(object);
-	})
+	});
 
 	return extended;
 }

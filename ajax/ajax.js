@@ -9,16 +9,15 @@
  * @param {Function} success Request success function
  * @param {Function} error Request error function
  */
-export default function ajax ( {
+export default function ajax ({
 	type = 'GET',
 	url = '',
 	data = '',
 	withCredentials = false,
 	beforeSend,
-	success,
-	error
-}) {
-	// Create the request
+	success, error}
+) {
+// Create the request
 	const request = new window.XMLHttpRequest();
 	request.open(type, url);
 

@@ -5,7 +5,7 @@
  * @param {String} className Class name
  * @param {Array} nodeName List of possible nodes name
  */
-export default function validateTarget({
+export default function validateTarget ({
 	target,
 	className,
 	nodeName
@@ -17,7 +17,7 @@ export default function validateTarget({
 			if (target.nodeName.toLowerCase() === nodeNameItem && target.classList.contains(className)) {
 				checkNodeName = true;
 			}
-		})
+		});
 	}
 
 	return target && checkNodeName;

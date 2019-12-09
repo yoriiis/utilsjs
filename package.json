@@ -1,0 +1,26 @@
+{
+	"name": "utilsjs",
+	"version": "1.0.0",
+	"description": "🛠️ List of standalone Javascript utils functions available in each directory",
+	"homepage": "https://github.com/yoriiis/utilsjs",
+	"bugs": "https://github.com/yoriiis/utilsjs/issues",
+	"repository": "https://github.com/yoriiis/utilsjs.git",
+	"license": "MIT",
+	"author": "Yoriiis aka Joris DANIEL",
+	"scripts": {
+		"test:eslint": "eslint -c ./.eslintrc.js ."
+	},
+	"devDependencies": {
+		"babel-eslint": "10.0.3",
+		"eslint": "4.18.2",
+		"eslint-config-standard": "10.2.1",
+		"eslint-plugin-import": "2.8.0",
+		"eslint-plugin-node": "5.2.1",
+		"eslint-plugin-promise": "3.6.0",
+		"eslint-plugin-standard": "3.0.1",
+		"prettier-eslint": "9.0.1"
+	},
+	"engines": {
+		"node": ">=8.11.2"
+	}
+}
