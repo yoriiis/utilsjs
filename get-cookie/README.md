@@ -3,10 +3,10 @@
 ### Usage
 
 ```javascript
-getCookie('cookie-name')
+getCookie('myCookie')
 ```
 
-Will return the name of the cookie `cookie-name`.
+Will return the name of the cookie `myCookie`.
 
 ### Parameter
 
