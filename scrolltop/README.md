@@ -1,6 +1,6 @@
-## `scrollTop`
+# `scrollTop`
 
-### Usage
+## Usage
 
 ```javascript
 scrollTop()

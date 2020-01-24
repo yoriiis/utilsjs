@@ -1,6 +1,6 @@
-## `extend`
+# `extend`
 
-### Basic usage
+## Basic usage
 
 ```javascript
 const object1 = { foo: 'bar' };
@@ -18,7 +18,7 @@ Will return the following object:
 }
 ```
 
-### Deep merge
+## Deep merge
 
 ```javascript
 const object1 = { foo: 'bar', settings: { name: 'button' }};
@@ -39,21 +39,21 @@ Will return the following object:
 }
 ```
 
-### Parameters
+## Parameters
 
-#### `first parameter`
+### `first parameter`
 
 `boolean = false`
 
 Tells to the function if it is a deep merge.
 
-#### `second parameter`
+### `second parameter`
 
 `object`
 
 Tells to the function the target object.
 
-#### `next parameter(s)`
+### `next parameter(s)`
 
 `object`
 

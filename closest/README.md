@@ -1,6 +1,6 @@
-## `closest`
+# `closest`
 
-### Usage
+## Usage
 
 ```javascript
 closest({
@@ -15,7 +15,7 @@ Will return the following HTML element:
 document.querySelector('.nav')
 ```
 
-### Example
+## Example
 
 ```html
 <nav class="nav">
@@ -27,15 +27,15 @@ document.querySelector('.nav')
 </nav>
 ```
 
-### Parameters
+## Parameters
 
-#### `element`
+### `element`
 
 `HTMLElement`
 
 Tells to the function the element to start the research.
 
-#### `className`
+### `className`
 
 `string`
 

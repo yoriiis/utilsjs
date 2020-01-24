@@ -1,6 +1,6 @@
-## `getCookie`
+# `getCookie`
 
-### Usage
+## Usage
 
 ```javascript
 getCookie('myCookie')
@@ -8,7 +8,7 @@ getCookie('myCookie')
 
 Will return the name of the cookie `myCookie`.
 
-### Parameter
+## Parameter
 
 `string`
 

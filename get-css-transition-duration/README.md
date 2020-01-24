@@ -1,6 +1,6 @@
-## `getCSSTransitionDuration`
+# `getCSSTransitionDuration`
 
-### Usage
+## Usage
 
 ```javascript
 getCSSTransitionDuration({
@@ -11,7 +11,7 @@ getCSSTransitionDuration({
 
 Will return `250`.
 
-### Example
+## Example
 
 ```css
 .button {
@@ -19,15 +19,15 @@ Will return `250`.
 }
 ```
 
-### Parameters
+## Parameters
 
-#### `target`
+### `target`
 
 `HTMLElement`
 
 Tells to the function the target element.
 
-#### `ms`
+### `ms`
 
 `boolean`
 
