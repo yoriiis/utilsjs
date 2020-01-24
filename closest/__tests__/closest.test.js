@@ -15,23 +15,20 @@ describe('closest function', () => {
 		`;
 	});
 
-	// it('should init the closest function', () => {
-	// 	let result = closest({
-	// 		element: document.querySelector('.list-itemLink'),
-	// 		className: 'nav'
-	// 	});
-
-	// 	expect(result).toBe(document.querySelector('.nav'));
-	// });
-
-	it('should init the closest function with unknown element', () => {
+	it('should init the closest function', () => {
 		let result = closest({
-			element: document.querySelector('.lista'),
+			element: document.querySelector('.list-itemLink'),
 			className: 'nav'
 		});
 
-		console.log(result);
-
-		// expect(result).toBe(null);
+		expect(result).toBe(document.querySelector('.nav'));
 	});
+
+	// it('should init the closest function with unknown element', () => {
+	// 	let result = closest({
+	// 		element: document.querySelector('.lista'),
+	// 		className: 'nav'
+	// 	});
+	// 	expect(result).toBe(null);
+	// });
 });
