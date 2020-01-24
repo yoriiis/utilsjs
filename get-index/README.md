@@ -1,6 +1,6 @@
-## `getIndex`
+# `getIndex`
 
-### Usage
+## Usage
 
 ```javascript
 getIndex(document.querySelector('.list-item.active'))
@@ -8,7 +8,7 @@ getIndex(document.querySelector('.list-item.active'))
 
 Will return `2`.
 
-### Example
+## Example
 
 ```html
 <ul class="list">
@@ -20,7 +20,7 @@ Will return `2`.
 </ul>
 ```
 
-### Parameter
+## Parameter
 
 `HTMLElement`
 

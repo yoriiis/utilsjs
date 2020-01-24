@@ -1,6 +1,6 @@
-## `setCookie`
+# `setCookie`
 
-### Usage
+## Usage
 
 ```javascript
 setCookie({
@@ -13,25 +13,25 @@ setCookie({
 
 Will set the cookie `cookie-name` with value `true` and expiration date of `30` days.
 
-### Parameters
+## Parameters
 
-#### `name`
+### `name`
 
 `string`
 
 Tells to the function the name of the cookie.
 
-#### `value`
+### `value`
 
 Tells to the function the value of the cookie.
 
-#### `days`
+### `days`
 
 `integer`
 
 Tells to the function the cookie expiration in days.
 
-#### `path`
+### `path`
 
 `string`
 

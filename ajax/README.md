@@ -1,6 +1,6 @@
-## `ajax`
+# `ajax`
 
-### Usage
+## Usage
 
 ```javascript
 ajax({
@@ -20,45 +20,45 @@ ajax({
 })
 ```
 
-### Parameters
+## Parameters
 
-#### `type`
+### `type`
 
 `string = 'GET'`
 
 Tells the type of the request (`GET`, `POST`).
 
-#### `url`
+### `url`
 
 `string = ''`
 
 Tells the url of the request.
 
-#### `data`
+### `data`
 
 `string = ''`
 
 Tells the datas to passed to the request. Datas need to be stringify as a string with `JSON.stringify()`.
 
-#### `withCredentials`
+### `withCredentials`
 
 `boolean = false`
 
 Tells to the function if credentials informations need to be passed.
 
-#### `beforeSend`
+### `beforeSend`
 
 `null || function`
 
 Specifies the function to execute before the request sent.
 
-#### `success`
+### `success`
 
 `null || function`
 
 Specifies the function to execute when the request succeeded.
 
-#### `error`
+### `error`
 
 `null || function`
 

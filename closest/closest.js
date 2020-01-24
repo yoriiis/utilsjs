@@ -7,6 +7,7 @@
  * @return {HTMLElement} Element which match the class name
  */
 export default function closest ({ element, className }) {
+	console.log(element.classList);
 	while (!element.classList.contains(className)) {
 		element = element.parentNode;
 		if (!element) {

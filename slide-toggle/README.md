@@ -1,6 +1,6 @@
-## `slideToggle`
+# `slideToggle`
 
-### Usage
+## Usage
 
 ```javascript
 slideToggle({
@@ -12,7 +12,7 @@ slideToggle({
 })
 ```
 
-### Example
+## Example
 
 ```html
 <div class="element">
@@ -28,21 +28,21 @@ slideToggle({
 }
 ```
 
-### Parameters
+## Parameters
 
-#### `target`
+### `target`
 
 `HTMLElement`
 
 Tells to the function the element to slide.
 
-#### `action`
+### `action`
 
 `boolean`
 
 Tells to the function the action: `open` or `close`.
 
-#### `callback`
+### `callback`
 
 `function`
 
