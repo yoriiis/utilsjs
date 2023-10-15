@@ -6,7 +6,7 @@
 	"bugs": "https://github.com/yoriiis/utilsjs/issues",
 	"repository": "https://github.com/yoriiis/utilsjs.git",
 	"license": "MIT",
-	"author": "Yoriiis aka Joris DANIEL",
+	"author": "Yoriiis",
 	"scripts": {
 		"test": "jest --verbose --coverage",
 		"test:coverage": "jest --coverage",
